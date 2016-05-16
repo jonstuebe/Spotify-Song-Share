@@ -1,0 +1,32 @@
+{
+  "name": "Spotify Song Share",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "index.js",
+  "scripts": {
+    "build": "electron-packager ./ --platform=darwin,mas --arch=all --out=releases --overwrite --icon=./Icon.icns",
+    "start": "electron index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "Jon Stuebe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.0.1"
+  },
+  "dependencies": {
+    "menubar": "^4.1.1"
+  }
+}
